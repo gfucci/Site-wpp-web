@@ -2,4 +2,95 @@
 
 html, body, ul {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+}
+
+/*SIDE BAR*/
+
+.sidebar {
+    width: 410px;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+/* TOOLBAR CONTAINER */
+
+.toolbar_container {
+    width: 100%;
+    height: 60px;
+    background-color: #EEE;
+}
+
+.user_photo {
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #ccc;
+    top: 10px;
+    left: 15px;
+}
+
+.auxicons_toolbar_container {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    padding-right: 20px;
+}
+
+.auxicons_toolbar_container i {
+    font-size: 20px;
+    color: #80868A;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+/* NOTIFICATIONS CONTAINER */
+
+.notification_container {
+    width: 100%;
+    height: 90px;
+    padding-top: 23px;
+    padding-left: 80px;
+    background-color: #9DE1FE;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.fas.fa-bell-slash {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    line-height: 45px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #F5FCFF;
+    color: #9DE1FE;
+}
+
+.notification_container p {
+    margin: 0;
+}
+
+.notification_container .receive_notifications {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.activate_notifications {
+    font-size: 13px;
 }
